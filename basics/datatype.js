@@ -19,3 +19,4 @@ symbol; unique
 console.log(typeof("swornim")) //yesle chai yo k ho vanera dekhauxa jastai int string bla bla..
 console.log(typeof(null)) //sabai data type ma use hunxa
 console.log(typeof undefined) 
+console.log(typeof 123)
