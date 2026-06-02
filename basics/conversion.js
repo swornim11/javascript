@@ -21,6 +21,28 @@ console.log(d);
 //number tei dekhauxa ouput ma but sting ma chai onvert vaisakeko hunxa
 console.log(typeof d);
 
+//string haru ko ni addition garna milxa
+//example
+let st1="hululu"
+let st2=" tululu"
+let st3=st1+st2
+console.log(st3);
 
+let inc=10
+inc++
+console.log(inc);
+
+let inc1=10
+++inc1
+console.log(inc1);
+
+let i=0
+let n=5
+
+for(i=0;i<5;i++){
+    console.log(i);
+    
+
+}
 
 
