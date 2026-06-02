@@ -52,3 +52,38 @@ console.log(myFunction);
 console.log(typeof myFunction);
 //non-primitive ko datatype sabai ko function nai auxa
 
+/*
+stack -primitive datatype
+heap- nonprimitive datatype
+*/
+//for stack
+let name1="Mr.swornim"
+let surname= name1
+surname="maharjan"//so  LIFO
+console.log(name1);
+console.log(surname);  //last input maharjan vayo so it prefer maharjan 
+
+
+//heap
+let person1={
+    fullname: "Swornim Mrz",
+    address: "khokana"
+}
+let person2=person1;
+console.log(person2);
+
+person2.fullname="swornim maharjan"
+console.log(person1);
+console.log(person2);
+//so according to output, heap ma chaii dubaii copy as well as the original ma data change hudo rahexa
+//whereas stack ma copy wala ma matra change hunthyo
+
+
+
+
+
+
+
+
+
+
