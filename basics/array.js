@@ -44,6 +44,49 @@ console.log(sp1);
 //nikaleko data lai naya variable ma add gardinxa
 //generally asked question in interview
 
+const hero=["spiderman","superman","batman"]
+
+const wep=["chappal","jutta"]
+hero.push(wep)
+console.log(hero);
+console.log(hero[3][1]);
+
+hero.concat(wep)
+console.log(hero);
+//push ra concat similar hoo 
+//push ma array vitra array banxa concat ma chai naya array ma banauxa
+const shero=hero.concat(wep)
+console.log(shero);
+//yeslee eutai array ma haldinxaaa but not efficient 
+
+const allhero = [...hero, ...wep]//... le seperate garne kam garxa
+console.log(allhero);
+//yesle ni eutai array ma haldina and this is efficient
+
+const newarray=[1,2,3,[4,5,6],7,[6,7]]
+const normal=newarray.flat(3)
+console.log(normal);
+//yesle chaii multuple array lai euta ma merge gardinxa
+
+console.log(Array.from("swornim"));
+//yesle chaii object,string,num lai array ma convert gardinxa
+
+console.log(Array.from({name:"swornim"}));
+//yesto case ma chai array empty aauxa kina vane yesma declared xaina ki kun wala laii array ma rakhne ho
+//name=keys and swornim=string, diff types
+
+let a=122
+let b=232
+let c=876
+console.log(Array.of(a,b,c));
+//diff data lai euta array ma rakhnee
+
+
+
+
+
+
+
 
 
 
