@@ -122,6 +122,31 @@ console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty('id'));
 //yesle chaii object vitra yo key xa ki nai check garxa
 
+const course={
+    courcename:"js",
+    price:"9898",
+    courseinstructor:"swornim"
+}
+const {courseinstructor:inst}=course
+//yedii name lamo xa vane teslaii feri sano ma ni change garna milxa
+//known as object destructure
+console.log(inst);
+
+//aps=afno kam aru lai garaune
+/*type of aps
+1.object
+{
+    name:"swornim",
+    c.name:"html"
+}
+2.array
+[
+{},
+{},
+{}
+]  
+used in json*/
+
 
 
 
