@@ -48,5 +48,50 @@ console.log(loginuser("swornim"))
 console.log(loginuser());
 //output: please enter a username,
 
+/*
+function calculateprice(num1){
+     return num1
+}
+console.log(calculateprice(400,233,800));
+yesari lekhyo vane first ko price matra display hunxa so */
 
+function calculateprice(...num1){//sbai lai split gardinxa
+    return num1
+}
+console.log(calculateprice(200,300,400));
+//yesarii chaii array ma sabai data dinxa
+
+function calculateprice1(val1,val2,...num1){//first dueta value val1 ra val2 ma basxa ani aru chai array
+    return num1
+}
+console.log(calculateprice1(200,300,500,400));
  
+const user ={
+    username:"swornim",
+    price:987
+}
+//console.log(`user is ${user.username} and price is ${user.price}`);
+//without using function,
+
+//for function
+function handleObject(anyobject){
+    console.log(`user is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+handleObject(user)
+//object ra function combine gareko xa
+//yesari garda ni vayo or direct garda ni vayo
+handleObject({
+    username:"Mr.Swornim Maharjan",
+    price:2323
+})//yesari direct value halda ni hunxa
+
+const newarray=[232,534,121]
+function funarray(getarray){
+    console.log(getarray[0]);
+    
+}
+funarray(newarray)
+//combination of array and function
+
+
