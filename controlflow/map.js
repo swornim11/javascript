@@ -70,3 +70,35 @@ mycode.forEach(function(val){
     console.log(val);
     
 })
+const coding=["js","ruby","java","js"]
+const value=coding.forEach((item) =>{
+    //console.log(item);//direct yesari rakhda ni vayo or
+    return item
+
+})
+console.log(value); //yesari return garera garda ni vayo
+
+const mynum=[1,2,3,4,5,6,7,8]
+const newnums=mynum.filter((num)=>num>5)
+console.log(newnums);//greater than 5 value dinxa
+
+//for scope
+const nnum=mynum.filter((num)=>{
+    return num<4
+})
+console.log(nnum);
+//yo method chai multiple object inside array wala situation ma kaam aauxa eg
+const book=[
+    {
+        name:"maths",price:900
+    },
+    {
+        name:"english",price:800
+    },
+    {
+        name:"nepali",price:500
+    }
+];
+let bookuser=book.filter((bk)=> bk.name==="maths")
+console.log(bookuser);
+
