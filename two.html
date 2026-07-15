@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chyang chung ching</title>
+</head>
+<body style="background-color: #282121; color: #ffffff;">
+    
+</body>
+<script>
+    const div= document.createElement('div')//yoo display hudaina memory ma matra dekhauxa
+    console.log(div);
+    div.className="main"
+    div.id= Math.round(Math.random() *10+1)
+    div.setAttribute("title","generated text")
+    div.style.background="green"
+    div.style.padding="14px"
+    div.innerText="hulululu"
+    //tala ra mathi ko kam eutai hoo for hulululu
+    const addText=document.createTextNode("hulululu")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+
+    </script>
+</html>
