@@ -3,7 +3,7 @@ const body = document.querySelector("body")
 
 buttons.forEach(function(button){ //button ma hune kam
     console.log(button)
-    button.addEventListener('mouseover',function(e){//event, k kam garne ho dekhauxa
+    button.addEventListener('click',function(e){//event, k kam garne ho dekhauxa
         //yesma maila click ko satta mouseover halyo vane curser le xoko color aauxa
       console.log(e);
       console.log(e.target);
