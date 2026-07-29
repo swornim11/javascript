@@ -29,6 +29,13 @@ console.log(anstring);
 //substring jastai ho but negative value ni dina milxaa
 //neg value le chaii reverse bata data dinxa
 
+let arr = [1, 2, 3, 4];
+const arr2=arr.splice(1, 3); //yo range ma aako data lai delete gardinxaa
+console.log(arr2);
+console.log(arr); //array ko remaining data
+//yesle chaii data lai pop garxa i.e display garera original data change gardinxa/ delete gardinxa
+
+
 const string="      bang bang        "
 console.log(string.trim());
 //yeslaii chaii character ko agadai and paxadii ko unwanted spaces haru lai hataidinxa
